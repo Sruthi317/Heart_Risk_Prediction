@@ -1,0 +1,27 @@
+clinical-ml-project/
+├── README.md
+├── requirements.txt
+├── .gitignore
+├── .env.example
+├── makefile
+├── main.py
+├── src/
+│   ├── __init__.py
+│   ├── data/
+│   │   ├── __init__.py
+│   │   ├── download.py
+│   │   └── prepare.py
+│   ├── features/
+│   │   └── build_features.py
+│   ├── models/
+│   │   ├── train.py
+│   │   └── evaluate.py
+│   └── visualization/
+│       └── eda.py
+├── data/
+│   ├── raw/
+│   ├── interim/
+│   └── processed/
+├── models/
+└── reports/
+    └── figures/
